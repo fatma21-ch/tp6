@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopStyle - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">ShopStyle</h2>
+        <li class="li1"><a href="#accueil">Accueil</a></li>
+        <li class="li1"><a href="#produits">Produits</a></li>
+        <li class="li1"><a href="#categories">Catégories</a></li>
+        <li class="li1"><a href="#commande">Commande</a></li>
+       
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil">
+       <h1>Bienvenue chez ShopStyle</h1>
+       <p>Découvrez nos meilleurs produits aux meilleurs prix </p>
+       <a href="produits" class="a1">
+        Découvrir les produits
+       </a>
+    </header>
+
+    <!-- Produits -->
+    <section id="produits">
+        <h2 class="titre">Nos produits</h2>
+            <div class="div1">
+                <img src="chaussures.jpg">
+                <h3>Chaussures sport</h3>
+                <p class="prix">Prix:120 DT </p>
+                <a href="commander" class="a1">
+                    Commander
+                </a>
+            </div>
+            <div class="div1">
+                <img src="sac.jpg">
+                <h3>Sac a main</h3>
+                <p class="prix">Prix:85 DT </p>
+                <a href="commander" class="a1">
+                    Commander
+                </a>
+            </div>
+                 <div class="div1">
+                <img src="montre.jpg">
+                <h3>Montre classique</h3>
+                <p class="prix">Prix:150 DT </p>
+                <a href="commander" class="a1">
+                    Commander
+                </a>
+            </div>
+
+        
+    </section>
+
+    <!-- Catégories -->
+    <section id="categories">
+        <h2 class="titre">Nos catégories</h2>
+        <div class="div2">
+            <ul class="ul2">
+                <li class="li2">Vétements</li>
+                <li class="li2">Chaussures</li>
+                <li class="li2">Sacs</li>
+                <li class="li2">Accessoires</li>
+                <li class="li2">Montres</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <!-- Tableau -->
+    <section id="tableau">
+        <h2 class="titre">Liste des prix</h2>
+        <div class="div3">
+        <table border="1">
+            <tr class="pr">
+                <th>Produit</th>
+                <th>Categorie</th>
+                <th>Prix</th>
+            </tr>
+            <tr>
+                <th>Chaussures sport</th>
+                <th>Chaussures</th>
+                <th>120 DT</th>
+            </tr>
+            <tr>
+                <th>Sac a main</th>
+                <th>Sacs</th>
+                <th>85 DT</th>
+            </tr>
+            <tr>
+                <th>Montre classique</th>
+                <th>Accessoires</th>
+                <th>150 DT</th>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <!-- Formulaire -->
+    <section id="commande">
+        <h2 class="titre">Passer une commande</h2>
+        <form action="" method="post" >
+            <label for="nom">Nom complet:</label></br>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required></br>
+            <label for="nom">Adresse e-mail:</label></br>
+            <input type="email" id="email" name="email" placeholder="exemple@email.com"></br>
+            <label for="nom">Choisir un produits:</label></br>
+            <select>
+            <option value="Chaussures">Chaussures sport-120 DT</option>
+             <option value="Sacs">Sac a main-85 DT</option>
+             <option value="Montre">Montre classique-150 DT</option>
+            </select></br>
+            <label for="Quantite">Quantité:</label></br>
+            <input type="number" placeholder="1"></br>
+            <label for="adresse">Adresse de livraison:</label></br>
+            <input  type="text" name="adresse" placeholder="Votre adresse"></br>
+            <button type="submit" class="a1">Confirmer la commande</button>
+
+        </form>
+
+       
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 ShopStyle - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>

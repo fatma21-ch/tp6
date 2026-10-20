@@ -1,0 +1,134 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color:rgb(60, 60, 200);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+
+
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+.a1{
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.p1{
+    color: orange;
+}
+.div1{
+        display: inline-block;
+    padding: 80px;
+    margin: 0 23px;
+    background-color: white;
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}.div1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.a1{
+    text-decoration: none;
+    color: orangered;
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.ul1{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.div2{
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    display: block;
+    border-left: 10px solid orange;
+    padding: 100px;
+    box-shadow: 0 0 5px black;
+}
+li.li2{
+    padding: 6px;
+    text-align: center;
+}
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+.pr{
+    background-color: #202c45;
+    color: white;
+    padding: 16px;
+}
+div3{
+    text-align: center;
+}
+table{
+    width: 85px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+th{
+    padding: 0px;}
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
